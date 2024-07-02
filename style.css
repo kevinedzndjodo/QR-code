@@ -1,0 +1,64 @@
+/**body{
+  background-image: url(design/desktop-design.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}**/
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background: #FEF5E7;
+}
+.qrCover{
+  margin: 100px auto;
+  padding: 10px;
+  height: 600px;
+  width: 1400px;
+  background: hsl(212, 45%, 89%);
+  border-radius: 20px;
+}
+.container{
+  background-color: #fff;
+  height: 450px;
+  width: 270px;
+  padding: 10px 10px 20px 10px;
+  margin: 70px auto;
+  border-radius: 20px;
+  box-shadow: 4px 6px 4px 4px hsl(212, 45%, 75%);
+
+}
+img{
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 250px;
+  border-radius: 20px;
+  margin: 5px auto;
+}
+h2{
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+p{
+  padding: 10px;
+  text-align: center;
+  color: hsl(220, 15%, 55%);
+  font-size: 15px;
+
+}
+
+.attribution{
+  text-align: center;
+  font-size: 15px;
+}
+/**.deco{
+  height: 50px;
+  width: 10px;
+  background-color: orangered;
+  display: flex;
+  flex-direction: column;
+}**/
